@@ -21,41 +21,38 @@ jobs:
           sudo apt update
           sudo apt install dpkg-dev bzip2 xz-utils zstd -y
 
-      - name: 生成带自定义分类的Packages索引（兼容所有特殊文件名）
+      - name: 原生扫描索引（保证所有插件正常显示）
         run: |
           cd ./debs
-          rm -f Packages
-          > Packages
-          # 正确遍历所有deb，支持括号、空格、特殊字符
-          shopt -s nullglob
-          for file in ./*.deb
-          do
-            info=$(dpkg -I "$file" control)
-            desc=$(echo "$info" | grep Description:)
-            section="工具插件"
-            if echo "$desc" | grep -q "键盘";then
-              section="键盘增强"
-            elif echo "$desc" | grep -E -q "系统|状态栏|锁屏|通知|手势|后台|动画|音量|电量|桌面|壁纸|音频|媒体|充电|弹窗|屏幕";then
-              section="系统增强"
-            elif echo "$desc" | grep -E -q "账号|切换|下载|文件|管理器|注入|屏蔽|广告|脚本|Safari|翻译|投屏|画中画|限制解除";then
-              section="功能拓展"
-            fi
-            echo "$info" | sed '/Section:/d' >> Packages
-            echo "Section: $section" >> Packages
-            echo "" >> Packages
-          done
+          dpkg-scanpackages . /dev/null > Packages_raw
+
+      - name: 批量自动替换分类（读取每个插件的Description自动分配栏目）
+        run: |
+          cd ./debs
+          awk '
+          BEGIN{FS="\n";RS="\n\n";OFS="\n"}
+          {
+            desc="";sec="工具插件";
+            for(i=1;i<=NF;i++){
+              if($i~/^Description: /) desc=$i;
+            }
+            if(desc~/键盘/) sec="键盘增强";
+            else if(desc~/系统|状态栏|锁屏|通知|手势|后台|动画|音量|电量|桌面|壁纸|音频|媒体|充电|弹窗|屏幕/) sec="系统增强";
+            else if(desc~/账号|切换|下载|文件|管理器|注入|屏蔽|广告|脚本|Safari|翻译|投屏|画中画|限制解除/) sec="功能拓展";
+            for(i=1;i<=NF;i++){
+              if($i!~/^Section: /) print $i;
+            }
+            print "Section: "sec;
+            print "";
+          }
+          ' Packages_raw > Packages
+          rm -f Packages_raw
           gzip -k -f Packages
           bzip2 -k -f Packages
           xz -k -f Packages
           zstd -k -f Packages
 
-      - name: upload file
-        uses: actions/upload-artifact@v4
-        with:
-          path: ./debs
-          name: repo-file
-
-      - name: deploy pages
+      - name: deploy pages（稳定推送，不会部署失败）
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

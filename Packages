@@ -1,0 +1,36 @@
+Package: com.miro92.swipeextenderx
+Version: 1.6.2
+Architecture: iphoneos-arm64e
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 614
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/SwipeExtenderX-1.6.2.deb
+Size: 82076
+MD5sum: 215ada3abb48fef6c0b9aee639ba429a
+SHA1: 839def79047dec6cff774508e14dea25c61813e8
+SHA256: a88f939b1b213c9ed0996701d6812fcc98b9ec1e4ee00adb593405f62b33689a
+Section: 键盘增强
+Description: 用这款传奇的插件重塑你的原生键盘
+Author: MiRO <tweaks_support@miro92.com>
+Icon: https://img.chariz.cloud/icon/swipeextenderx/icon@3x.png
+Name: SwipeExtenderX
+
+Package: llld.keyboard
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: llld
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/强制使用第三方键盘-Rootless-2.0.deb
+Size: 5168
+MD5sum: 0475eb30abe743b6282ec151a23b5adb
+SHA1: cd74152c07d535f5526a6fd277131536caa4024f
+SHA256: 447f8b392912237fe03a98f6d2f317e5502d96c8a8195c0a23c5697d11974946
+Section: 系统增强
+Priority: optional
+Description: 在很多时候输入，手机总默认自带键盘，且不能更换第三方，有了这插件，你想用啥键盘用啥键盘(第三方输入法都可以)
+Author: 来了老弟
+Name: 强制使用第三方键盘-Rootless
+

@@ -137,16 +137,16 @@ Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
-Filename: ./debs/左滑返回-Rootless-1.0-6.deb
-Size: 56146
-MD5sum: b9fad54a01c375c817aefbd9169efcfd
-SHA1: e1a18ea174bfe6bf91ecbe852b31f1617be440cb
-SHA256: 11bfe59e147d1ff666192a0eb6abb22ad287549abc8d99115c114991fb8dea21
+Filename: ./debs/com.25mao.leftpan.rootless_1.0-6_iphoneos-arm64e.deb
+Size: 46164
+MD5sum: f84d3cc942d4664c181cc23b3560a25f
+SHA1: 4f2ab3b24d981827c5f4f0bab9016b0bf9377685
+SHA256: 741b226ad1b4512738678addbd331eff691aba504d8e52578cbfb0ce8ef90d22
 Section: Tweaks
 Priority: optional
 Description: 左滑返回上一页面
 Author: Mao
-Name: 左滑返回-Rootless
+Name: 左滑返回-iphoneos-arm64e-roothide
 
 Package: com.25mao.miyou.rootlesss
 Version: 3.9-5
@@ -211,26 +211,6 @@ Section: Tweaks
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-iphoneos-arm64e
-
-Package: com.be-huge.wechat-push-msg-pages
-Version: 0.0.5
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 232
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Conflicts: com.be-huge.wechat-push-msg-page
-Filename: ./debs/微信推送直达聊天窗口-0.0.5.deb
-Size: 30930
-MD5sum: aeb15c49099f5f8507f4ca288d875dfa
-SHA1: 4c1c19012c01190242b4785917a44060e7e7ebe0
-SHA256: ac60fdf1080ad04d7609d1179ed2dbaf0cbaf565030e234d80d030bd97d1c44e
-Section: Tweaks
-Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口
-Author: be-huge
-Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/icon.png
-Name: 微信推送直达聊天窗口
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/js.json
 
 Package: com.brend0n.nopassafterrespringsafe
 Version: 0.0.3

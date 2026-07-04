@@ -658,21 +658,20 @@ Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.limitcharging
 Package: llld.keyboard
 Version: 2.0
 Architecture: iphoneos-arm64e
-Maintainer: 搬运工
+Maintainer: llld
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: ./debs/强制使用第三方键盘-RootHide.deb
-Size: 5730
-MD5sum: d56435385a3551f9c5c5065d92733f69
-SHA1: 127fbe94c68666469c841d82830b82e5e73ef328
-SHA256: 20a526b2e9c09749f9bc796f9eebd70c87c4d8b83267a2c353229e8902697471
+Filename: ./debs/llld.keyboard_2.0_iphoneos-arm64e.deb
+Size: 5168
+MD5sum: 0475eb30abe743b6282ec151a23b5adb
+SHA1: cd74152c07d535f5526a6fd277131536caa4024f
+SHA256: 447f8b392912237fe03a98f6d2f317e5502d96c8a8195c0a23c5697d11974946
 Section: 常用插件
 Priority: optional
 Description: 在很多时候输入，手机总默认自带键盘，且不能更换第三方，有了这插件，你想用啥键盘用啥键盘(第三方输入法都可以)
 Author: 来了老弟
 Name: 强制使用第三方键盘-Rootless
-Sponsor: 搬运工
 
 Package: me.tomt000.stageduo
 Version: 1.1

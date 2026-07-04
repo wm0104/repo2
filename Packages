@@ -393,6 +393,26 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/icon.png
 Name: WeChatNotiAvatar 微信头像
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/js.json
 
+Package: com.qiop1379.swipeextenderx
+Version: 1.6.1~2
+Architecture: iphoneos-arm64e
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 614
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.qiop1379.swipeextenderx_1.6.1~2_iphoneos-arm64e.deb
+Size: 119106
+MD5sum: 40971a1bf231000a96637bf1071813cf
+SHA1: 8dbdf45f8111a9e89735c058b38217951549ec4e
+SHA256: 6bc5bfc51e60a90db37eeb8f58e6418ce537413627d25a0be3728f30932ffe2d
+Section: Tweaks
+Description: Reinvent your keyboard with this full remake of the legendary SwipeExpander tweak, designed to work on modern iOS!
+Tag: compatible_min::ios14.0
+Author: MiRO <tweaks_support@miro92.com>
+Depiction: https://chariz.com/get/swipeextenderx
+Icon: https://img.chariz.cloud/icon/swipeextenderx/icon@3x.png
+Name: SwipeExtenderX
+
 Package: com.storeswitcher.appstore
 Version: 1.0.6
 Architecture: iphoneos-arm64e
@@ -448,22 +468,23 @@ Author: Soh Satoh
 Icon: https://s1.imagehub.cc/images/2025/01/03/379617e90dc02b790c6c1daf8ffcb8ba.png
 Name: FreePIP
 
-Package: com.wkk.swipeextenderx
-Version: 1.6.2
-Architecture: iphoneos-arm64
-Maintainer: MiRO <tweaks_support@miro92.com>
-Installed-Size: 614
-Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/SwipeExtenderX-1.6.2-1.deb
-Size: 79740
-MD5sum: 32e19748ff2c26f97cc340d1194938c9
-SHA1: c988e0a4f3535cce43f2cc004e92d6eb7aca0dc9
-SHA256: 833fe0d00f471c1d45d108f3faaf00006d5b79f0e68946798fbae019b69a0868
+Package: com.xybp888.callassist16.dopamine.roothide
+Version: 2.3.5
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/电话助手iOS16-正式版(Roothide)-2.3.5.deb
+Size: 2777432
+MD5sum: f5cd0b6a18a1b0cf69a6c009dee4943d
+SHA1: 6a4fb3e11e7d81cc681ecd2b191c88c580077485
+SHA256: c61b297eaaba4d0693b856b244b8808396f2d279a4a67bf846228bd373f22ea2
 Section: Tweaks
-Description: 用这款传奇的插件重塑你的原生键盘，自带我的预设，在Presets中可以找到并恢复。无汉化。
-Author: MiRO <tweaks_support@miro92.com>
-Icon: https://img.chariz.cloud/icon/swipeextenderx/icon@3x.png
-Name: SwipeExtenderX
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Depiction: https://apt.htv123.com/view/622
+Name: 电话助手iOS16-正式版(Roothide)
+Sileodepiction: https://apt.htv123.com/sileo/622
 
 Package: com.xybp888.perfectdynamiclsland.roothide
 Version: 1.2-31

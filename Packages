@@ -113,24 +113,6 @@ Author: zqbb
 Name: Hello 3Q
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
-Package: codes.aurora.kayoko
-Version: 3.3.9-8
-Architecture: iphoneos-arm64e
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 1076
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Filename: ./debs/Hello Kayoko-3.3.9-8.deb
-Size: 148234
-MD5sum: 79a6e61308410ba0a94be361ded2305e
-SHA1: 1b104a0b5ab69e0d2fb12746ea7a02d2858c4718
-SHA256: 62ad986e2bb84a84c168ee7621ffd149a2484b0a2c4fadc3a20604cc45d96606
-Section: Tweaks
-Description: Clipboard manager for iOS.
-Author: Alexandra Aurora Göttlicher
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-Name: Hello Kayoko
-Sileodepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64e
@@ -262,23 +244,6 @@ Section: Tweaks
 Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持 roothide。
 Author: Netskao
 Name: Filza Crack(RootHide)
-
-Package: com.dao.kayoko
-Version: 4.0.4
-Architecture: iphoneos-arm64e
-Maintainer: Lessica <82flex@gmail.com>
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.daodao.kayoko, com.82flex.kayoko
-Filename: ./debs/Kayoko(RootHide)-4.0.4.deb
-Size: 308364
-MD5sum: c9f090e46a6a3e4a9dc15a7942ccacf4
-SHA1: 26ae31c47730aef62ae2f651bdd3411e5c9ed2ca
-SHA256: f58f88f340a812d133996ba65f537fc509eee1cf2b19d03a2e1d5eb9ac0e7196
-Section: Tweaks
-Description: 乌龙工作室版Kayoko，更多优化增强，添加支持iOS16/17。
-Author: Lessica
-Name: Kayoko(RootHide)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/kayoko/js.json
 
 Package: com.dao.kayoko
 Version: 4.0.6

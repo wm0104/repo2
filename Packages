@@ -586,6 +586,23 @@ Description: FreePIP is a tweak to un-snap and scale the view of Picture-in-Pict
 Author: Soh Satoh
 Name: FreePIP
 
+Package: me.tomt000.stageduo
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: tomt000
+Installed-Size: 4900
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: ./debs/DynamicStage-1.2.deb
+Size: 6692716
+MD5sum: c2920f5f56f1c77ddea268af4cb051f7
+SHA1: f24f5270490b3e194586e965515d62cd44713975
+SHA256: 41af26ff7ecf52d06bf433fd9ade50f9908596377e096c4fcddf2635d1cf37a9
+Section: Tweaks
+Description: Stage Manager Reimagined for iPhone
+Author: tomt000
+Name: Dynamic Stage
+
 Package: netskao.BlockAppsCreateAlbum
 Version: 1.1.2
 Architecture: iphoneos-arm64e

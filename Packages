@@ -280,24 +280,6 @@ Author: MilkyWay Reborn
 Name: MilkyWayReborn(RootHide)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
 
-Package: com.dao.picobanner
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: daodao
-Installed-Size: 796
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: love.litten.liddell, dev.traurige.liddell
-Filename: ./debs/com.dao.picobanner_1.0_iphoneos-arm64e.deb
-Size: 116400
-MD5sum: 1a878c9862802ce6cbaf50852372997c
-SHA1: 62b3667f889377421f27766b38146ed1e7209f93
-SHA256: b04aa15c5719dac87e04867e1ba0365715f2c1399ac69e4f2d447c8452affa50
-Section: Tweaks
-Description: 样式丰富多彩的小巧通知横幅。
-Author: daodao
-Name: PicoBanner(RootHide)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/picobanner/js.json
-
 Package: com.exile90.icleanerpros
 Version: 7.10.0
 Architecture: iphoneos-arm64e
@@ -340,6 +322,24 @@ Author: huami
 Icon: https://TrollStoreX.Github.io/sileodepiction/WCPush2Chat/icon.png
 Name: 微信消息直达 WCPush2Chat
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WCPush2Chat/js.json
+
+Package: com.iosdump.appdata
+Version: 2.5.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/AppData-2.5.1.deb
+Size: 3487962
+MD5sum: 3874cddea4f922db17aab41d6ea22c01
+SHA1: 500267e2b64ec3749200a71f7aa19eab9c265c96
+SHA256: 72c5f75a2c482c429020bdd9e4605218f3e739455eefe06ae3a6631045e53788
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
 
 Package: com.jontelang.snapper3
 Version: 1.2.1

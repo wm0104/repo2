@@ -529,23 +529,23 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/FuckWeChatAds/icon.png
 Name: 微信去广告 FuckWeChatAds
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/FuckWeChatAds/js.json
 
-Package: com.wkk.ccswitchdata
-Version: 1.1-4
+Package: com.wkk.cccellularrate
+Version: 1.1-1
 Architecture: iphoneos-arm64e
 Maintainer: wkk
-Installed-Size: 132
+Installed-Size: 616
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/CCswitchdata-1.1-4.deb
-Size: 26502
-MD5sum: b069398a9f132dee554c45d70fb11919
-SHA1: a0ffb19cbb6a5250e4a6cbb81d325c308fd9466e
-SHA256: ce9a62c2877753c7636967728f26c17bb8ef78a186e614544209dd56d27e3043
+Filename: ./debs/CCCellularRate-1.1-1.deb
+Size: 115968
+MD5sum: e0455138047ec00a3290833271fe1a37
+SHA1: 8d6b19ec8b407fa4521b4c2df1e7999a83ab8537
+SHA256: 8794d10c8a81c94e1ce362f4a66f5eba87fa080e6848c8e6b0e14306a3826bbe
 Section: Tweaks
-Description: 控制中心切换双卡流量。
+Description: 控制中心快速开启2/3/4/5G。
 Author: Netskao
-Icon: https://s1.imagehub.cc/images/2025/12/29/79018e0c97a38b0c2da262e3bf40edb1.png
-Name: CCswitchdata
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: CCCellularRate
 Sponsor: wkk
 
 Package: com.wkk.filzaswipeselect

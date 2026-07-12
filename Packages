@@ -247,23 +247,6 @@ Author: Netskao
 Name: Filza Crack(RootHide)
 
 Package: com.dao.kayoko
-Version: 4.0.6
-Architecture: iphoneos-arm64e
-Maintainer: Lessica
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.daodao.kayoko, com.82flex.kayoko
-Filename: ./debs/Kayoko(RootHide)-4.0.6.deb
-Size: 316288
-MD5sum: 4e4a8d78b6bc24da226add3262dbc199
-SHA1: 50981444472ca548d379dc9a2c3ca632eea4a13f
-SHA256: a1048837dba3a1e98d2e01e082cb9ecb9d6eb79f137ba3e794b4fb6b1bc2e867
-Section: Tweaks
-Description: 乌龙工作室版Kayoko，更多优化增强，添加支持iOS16/17。
-Author: Lessica
-Name: Kayoko(RootHide)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/kayoko/js.json
-
-Package: com.dao.kayoko
 Version: 4.1.2
 Architecture: iphoneos-arm64e
 Maintainer: 82Flex
@@ -581,24 +564,6 @@ Description: Filza的滑动多选功能。
 Author: korboy <korboybeats@gmail.com>
 Icon: https://sini921.github.io/repo/sileodepiction/icon/filzaswipeselect.png
 Name: FilzaSwipeSelect
-
-Package: com.xybp888.callassist16.dopamine.roothide
-Version: 2.3.5
-Architecture: iphoneos-arm64e
-Maintainer: xybp888
-Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
-Filename: ./debs/电话助手iOS16-正式版(Roothide)-2.3.5.deb
-Size: 2777432
-MD5sum: f5cd0b6a18a1b0cf69a6c009dee4943d
-SHA1: 6a4fb3e11e7d81cc681ecd2b191c88c580077485
-SHA256: c61b297eaaba4d0693b856b244b8808396f2d279a4a67bf846228bd373f22ea2
-Section: Tweaks
-Priority: optional
-Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Author: xybp888
-Depiction: https://apt.htv123.com/view/622
-Name: 电话助手iOS16-正式版(Roothide)
-Sileodepiction: https://apt.htv123.com/sileo/622
 
 Package: com.xybp888.callassist16.dopamine.roothide
 Version: 2.3.6

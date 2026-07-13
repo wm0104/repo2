@@ -31,8 +31,8 @@ jobs:
               # 解压deb包
               dpkg-deb -x "$debfile" tmpdeb;
               dpkg-deb -e "$debfile" tmpdeb/DEBIAN;
-              # 替换Section字段值为 插件
-              sed -i 's/^Section:.*/Section: 插件/' tmpdeb/DEBIAN/control;
+              # 替换Section字段值为 RootHide
+              sed -i 's/^Section:.*/Section: RootHide/' tmpdeb/DEBIAN/control;
               # 重新打包deb，覆盖原文件
               dpkg-deb -b tmpdeb "$debfile";
               rm -rf tmpdeb;
